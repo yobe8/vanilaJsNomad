@@ -1,0 +1,16 @@
+body {
+    background-color: midnightblue;
+}
+
+h1 {
+    color: whitesmoke;
+    transition: color 1s ease-in-out;
+}
+
+.clicked {
+    color: gold;
+}
+
+.btn {
+    cursor: progress;
+}
