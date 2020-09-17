@@ -2,9 +2,8 @@ body {
     background-color: midnightblue;
 }
 
-h1 {
+body {
     color: whitesmoke;
-    transition: color 1s ease-in-out;
 }
 
 .clicked {
@@ -13,4 +12,12 @@ h1 {
 
 .btn {
     cursor: progress;
+}
+
+.form, .greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
