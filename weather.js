@@ -6,7 +6,7 @@ const COORDS = 'coords';
 function getWeather(lat, lng) {
     fetch(
         `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEYS}&units=metric`
-    ).then(function(response) {
+    ).then(function(response) { //이부분은 이해가 거의 안됐음. 퓨.
         return response.json();
     }).then(function(json) {
         const temperature = json.main.temp;
