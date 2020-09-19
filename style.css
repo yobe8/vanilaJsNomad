@@ -1,10 +1,13 @@
 body {
     background-color: gray;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
-body {
-    color: whitesmoke;
-}
 
 .clicked {
     color: gold;
@@ -27,7 +30,7 @@ body {
         opacity: 0;
     }
     to {
-        opacity: 1;
+        opacity: 0.7;
     }
 }
 
@@ -38,6 +41,6 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    animation: fadeIn 2s linear;
+    animation: fadeIn 1s linear forwards;
 }
 
